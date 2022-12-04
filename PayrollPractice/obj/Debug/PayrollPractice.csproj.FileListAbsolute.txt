@@ -1,0 +1,11 @@
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\bin\Debug\PayrollPractice.exe.config
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\bin\Debug\PayrollPractice.exe
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\bin\Debug\PayrollPractice.pdb
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.csproj.AssemblyReference.cache
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.csproj.SuggestedBindingRedirects.cache
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.Form1.resources
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.Properties.Resources.resources
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.csproj.GenerateResource.cache
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.csproj.CoreCompileInputs.cache
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.exe
+C:\Users\jisu6\Desktop\PayrollPractice\PayrollPractice\obj\Debug\PayrollPractice.pdb
