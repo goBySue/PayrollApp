@@ -52,57 +52,59 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(257, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(374, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 24);
+            this.label1.Size = new System.Drawing.Size(216, 38);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Lading Holdings";
+            this.label1.Text = "ABC Company";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.White;
-            this.lblName.Location = new System.Drawing.Point(106, 88);
-            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblName.Location = new System.Drawing.Point(96, 87);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(77, 24);
+            this.lblName.Size = new System.Drawing.Size(113, 38);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Name: ";
             // 
             // lblHours
             // 
             this.lblHours.AutoSize = true;
-            this.lblHours.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHours.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHours.ForeColor = System.Drawing.Color.White;
-            this.lblHours.Location = new System.Drawing.Point(106, 152);
-            this.lblHours.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHours.Location = new System.Drawing.Point(96, 150);
+            this.lblHours.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHours.Name = "lblHours";
-            this.lblHours.Size = new System.Drawing.Size(195, 24);
+            this.lblHours.Size = new System.Drawing.Size(276, 38);
             this.lblHours.TabIndex = 2;
             this.lblHours.Text = "No. Hours Worked: ";
             // 
             // lblDep
             // 
             this.lblDep.AutoSize = true;
-            this.lblDep.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDep.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDep.ForeColor = System.Drawing.Color.White;
-            this.lblDep.Location = new System.Drawing.Point(106, 217);
-            this.lblDep.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDep.Location = new System.Drawing.Point(96, 213);
+            this.lblDep.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDep.Name = "lblDep";
-            this.lblDep.Size = new System.Drawing.Size(197, 24);
+            this.lblDep.Size = new System.Drawing.Size(278, 38);
             this.lblDep.TabIndex = 3;
             this.lblDep.Text = "No. of Dependents: ";
             // 
             // btnCompute
             // 
-            this.btnCompute.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(155)))), ((int)(((byte)(188)))));
-            this.btnCompute.Location = new System.Drawing.Point(160, 282);
+            this.btnCompute.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompute.ForeColor = System.Drawing.Color.Tan;
+            this.btnCompute.Location = new System.Drawing.Point(217, 262);
+            this.btnCompute.Margin = new System.Windows.Forms.Padding(2);
             this.btnCompute.Name = "btnCompute";
-            this.btnCompute.Size = new System.Drawing.Size(129, 70);
+            this.btnCompute.Size = new System.Drawing.Size(125, 69);
             this.btnCompute.TabIndex = 4;
             this.btnCompute.Text = "Calculate Take Home Pay";
             this.btnCompute.UseVisualStyleBackColor = true;
@@ -110,10 +112,12 @@
             // 
             // btnReset
             // 
-            this.btnReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(155)))), ((int)(((byte)(188)))));
-            this.btnReset.Location = new System.Drawing.Point(408, 299);
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.Tan;
+            this.btnReset.Location = new System.Drawing.Point(441, 278);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(112, 37);
+            this.btnReset.Size = new System.Drawing.Size(101, 36);
             this.btnReset.TabIndex = 5;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -121,32 +125,39 @@
             // 
             // txtBxName
             // 
-            this.txtBxName.Location = new System.Drawing.Point(241, 86);
+            this.txtBxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBxName.Location = new System.Drawing.Point(291, 84);
+            this.txtBxName.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxName.Name = "txtBxName";
-            this.txtBxName.Size = new System.Drawing.Size(280, 26);
+            this.txtBxName.Size = new System.Drawing.Size(629, 30);
             this.txtBxName.TabIndex = 6;
             // 
             // txtBxWrk
             // 
-            this.txtBxWrk.Location = new System.Drawing.Point(324, 150);
+            this.txtBxWrk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBxWrk.Location = new System.Drawing.Point(291, 147);
+            this.txtBxWrk.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxWrk.Name = "txtBxWrk";
-            this.txtBxWrk.Size = new System.Drawing.Size(195, 26);
+            this.txtBxWrk.Size = new System.Drawing.Size(629, 30);
             this.txtBxWrk.TabIndex = 7;
             // 
             // txtBxDpd
             // 
-            this.txtBxDpd.Location = new System.Drawing.Point(324, 217);
+            this.txtBxDpd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBxDpd.Location = new System.Drawing.Point(291, 213);
+            this.txtBxDpd.Margin = new System.Windows.Forms.Padding(2);
             this.txtBxDpd.Name = "txtBxDpd";
-            this.txtBxDpd.Size = new System.Drawing.Size(195, 26);
+            this.txtBxDpd.Size = new System.Drawing.Size(629, 30);
             this.txtBxDpd.TabIndex = 8;
             // 
             // lblGross
             // 
             this.lblGross.AutoSize = true;
-            this.lblGross.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGross.Location = new System.Drawing.Point(197, 427);
+            this.lblGross.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGross.Location = new System.Drawing.Point(205, 387);
+            this.lblGross.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGross.Name = "lblGross";
-            this.lblGross.Size = new System.Drawing.Size(101, 20);
+            this.lblGross.Size = new System.Drawing.Size(171, 38);
             this.lblGross.TabIndex = 9;
             this.lblGross.Text = "Gross Pay: ";
             this.lblGross.Visible = false;
@@ -154,10 +165,11 @@
             // lblFed
             // 
             this.lblFed.AutoSize = true;
-            this.lblFed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFed.Location = new System.Drawing.Point(178, 485);
+            this.lblFed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFed.Location = new System.Drawing.Point(189, 444);
+            this.lblFed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFed.Name = "lblFed";
-            this.lblFed.Size = new System.Drawing.Size(123, 20);
+            this.lblFed.Size = new System.Drawing.Size(203, 38);
             this.lblFed.TabIndex = 10;
             this.lblFed.Text = "Federal Ded.: ";
             this.lblFed.Visible = false;
@@ -165,10 +177,11 @@
             // lblSoc
             // 
             this.lblSoc.AutoSize = true;
-            this.lblSoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoc.Location = new System.Drawing.Point(164, 545);
+            this.lblSoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoc.Location = new System.Drawing.Point(175, 503);
+            this.lblSoc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSoc.Name = "lblSoc";
-            this.lblSoc.Size = new System.Drawing.Size(124, 20);
+            this.lblSoc.Size = new System.Drawing.Size(209, 38);
             this.lblSoc.TabIndex = 11;
             this.lblSoc.Text = "Soc Sec Ded.:";
             this.lblSoc.Visible = false;
@@ -176,10 +189,11 @@
             // lblAgency
             // 
             this.lblAgency.AutoSize = true;
-            this.lblAgency.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAgency.Location = new System.Drawing.Point(176, 605);
+            this.lblAgency.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAgency.Location = new System.Drawing.Point(187, 561);
+            this.lblAgency.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAgency.Name = "lblAgency";
-            this.lblAgency.Size = new System.Drawing.Size(114, 20);
+            this.lblAgency.Size = new System.Drawing.Size(194, 38);
             this.lblAgency.TabIndex = 12;
             this.lblAgency.Text = "Agency Fee: ";
             this.lblAgency.Visible = false;
@@ -187,20 +201,22 @@
             // lblNet
             // 
             this.lblNet.AutoSize = true;
-            this.lblNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNet.Location = new System.Drawing.Point(208, 664);
+            this.lblNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNet.Location = new System.Drawing.Point(216, 620);
+            this.lblNet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNet.Name = "lblNet";
-            this.lblNet.Size = new System.Drawing.Size(81, 20);
+            this.lblNet.Size = new System.Drawing.Size(138, 38);
             this.lblNet.TabIndex = 13;
             this.lblNet.Text = "Net Pay: ";
             this.lblNet.Visible = false;
             // 
             // txtGross
             // 
-            this.txtGross.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGross.Location = new System.Drawing.Point(352, 431);
+            this.txtGross.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGross.Location = new System.Drawing.Point(345, 390);
+            this.txtGross.Margin = new System.Windows.Forms.Padding(2);
             this.txtGross.Name = "txtGross";
-            this.txtGross.Size = new System.Drawing.Size(128, 26);
+            this.txtGross.Size = new System.Drawing.Size(548, 30);
             this.txtGross.TabIndex = 14;
             this.txtGross.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGross.Visible = false;
@@ -208,49 +224,55 @@
             // 
             // txtFed
             // 
-            this.txtFed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFed.Location = new System.Drawing.Point(352, 485);
+            this.txtFed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFed.Location = new System.Drawing.Point(345, 444);
+            this.txtFed.Margin = new System.Windows.Forms.Padding(2);
             this.txtFed.Name = "txtFed";
-            this.txtFed.Size = new System.Drawing.Size(128, 26);
+            this.txtFed.Size = new System.Drawing.Size(548, 30);
             this.txtFed.TabIndex = 15;
             this.txtFed.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtFed.Visible = false;
+            this.txtFed.TextChanged += new System.EventHandler(this.txtFed_TextChanged);
             // 
             // txtSoc
             // 
-            this.txtSoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoc.Location = new System.Drawing.Point(352, 545);
+            this.txtSoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoc.Location = new System.Drawing.Point(345, 503);
+            this.txtSoc.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoc.Name = "txtSoc";
-            this.txtSoc.Size = new System.Drawing.Size(128, 26);
+            this.txtSoc.Size = new System.Drawing.Size(548, 30);
             this.txtSoc.TabIndex = 16;
             this.txtSoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtSoc.Visible = false;
             // 
             // txtAgency
             // 
-            this.txtAgency.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAgency.Location = new System.Drawing.Point(352, 605);
+            this.txtAgency.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgency.Location = new System.Drawing.Point(345, 561);
+            this.txtAgency.Margin = new System.Windows.Forms.Padding(2);
             this.txtAgency.Name = "txtAgency";
-            this.txtAgency.Size = new System.Drawing.Size(128, 26);
+            this.txtAgency.Size = new System.Drawing.Size(548, 30);
             this.txtAgency.TabIndex = 17;
             this.txtAgency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtAgency.Visible = false;
             // 
             // txtNet
             // 
-            this.txtNet.Location = new System.Drawing.Point(352, 664);
+            this.txtNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNet.Location = new System.Drawing.Point(345, 620);
+            this.txtNet.Margin = new System.Windows.Forms.Padding(2);
             this.txtNet.Name = "txtNet";
-            this.txtNet.Size = new System.Drawing.Size(128, 26);
+            this.txtNet.Size = new System.Drawing.Size(548, 30);
             this.txtNet.TabIndex = 18;
             this.txtNet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtNet.Visible = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(155)))), ((int)(((byte)(188)))));
-            this.ClientSize = new System.Drawing.Size(697, 750);
+            this.BackColor = System.Drawing.Color.Tan;
+            this.ClientSize = new System.Drawing.Size(931, 778);
             this.Controls.Add(this.txtNet);
             this.Controls.Add(this.txtAgency);
             this.Controls.Add(this.txtSoc);
@@ -270,9 +292,9 @@
             this.Controls.Add(this.lblHours);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

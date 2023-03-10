@@ -123,5 +123,10 @@ namespace PayrollPractice
             txtNet.Visible = false;
             txtBxName.Enabled = true;
         }
+
+        private void txtFed_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
